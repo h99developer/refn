@@ -128,7 +128,7 @@ public:
 	static void CmdStats(CGameContext* pContext, int pClientID, const char** pArgs, int ArgNum);
 	static void CmdHelp(CGameContext* pContext, int pClientID, const char** pArgs, int ArgNum);
 	static void CmdEmote(CGameContext* pContext, int pClientID, const char** pArgs, int ArgNum);
-	static void CmeMe(CGameContext* pContext, int pClientID, const char** pArgs, int ArgNum);
+	static void CmdMe(CGameContext* pContext, int pClientID, const char** pArgs, int ArgNum);
 
 	void Clear();
 
